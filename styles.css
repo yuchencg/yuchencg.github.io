@@ -208,6 +208,38 @@ strong {
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
+.image-credit {
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+    margin-top: 0.75rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.contact-box {
+    background-color: #F0F3F9;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 2px;
+}
+
+.contact-box p {
+    margin: 0;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+}
+
+.contact-box a {
+    color: #8B7355;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.contact-box a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
 .greeting h1 {
     font-size: 1.875rem;
     margin-bottom: 0.5rem;
@@ -219,23 +251,6 @@ strong {
     color: var(--color-text-light);
     font-family: var(--sans-font);
     margin-bottom: 1.5rem;
-}
-
-.contact-bar {
-    padding: 1rem 0;
-    margin: 1.5rem 0 2rem;
-    border-top: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
-}
-
-.contact-bar p {
-    margin: 0;
-    font-size: 0.9375rem;
-}
-
-.separator {
-    margin: 0 0.75rem;
-    color: var(--color-text-light);
 }
 
 .bio-text {
@@ -325,6 +340,48 @@ strong {
    ============================================ */
 .cv-page {
     padding-top: 3rem;
+}
+
+.cv-page-minimal {
+    padding: 8rem 0;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-narrow {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.cv-intro {
+    text-align: center;
+}
+
+.cv-intro p {
+    font-size: 1.25rem;
+    color: var(--color-text);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.cv-link-box {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    border: 2px solid #8B7355;
+    border-radius: 4px;
+    color: #8B7355;
+    font-size: 1.125rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.cv-link-box:hover {
+    background-color: #8B7355;
+    color: white;
+    text-decoration: none;
 }
 
 .cv-content {
@@ -482,12 +539,12 @@ footer p {
 }
 
 @media (max-width: 480px) {
-    .contact-bar p {
-        font-size: 0.875rem;
+    .contact-box {
+        padding: 1.25rem;
     }
     
-    .separator {
-        margin: 0 0.5rem;
+    .contact-box p {
+        font-size: 0.875rem;
     }
 }
 
