@@ -3,62 +3,215 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Carmen Yuchen Guo</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="logo">Your Name</a>
+            <a href="#about" class="logo">Carmen Yuchen Guo</a>
             <button class="menu-toggle" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
             <ul class="nav-menu">
-                <li><a href="index.html" class="active">About</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="cv.html">CV</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#cv">CV</a></li>
             </ul>
         </div>
     </nav>
 
-    <main class="container">
-        <section class="about-section">
-            <div class="about-content">
-                <div class="profile-image">
-                    <img src="images/profile.jpg" alt="Your Name">
-                    <p class="image-credit">Photo credit: Photographer Name</p>
-                </div>
-                
-                <div class="bio">
-                    <h1>Welcome! My name is Carmen Yuchen Guo. </h1>
-                    <h2>I am .</h2>
-                    
-                    <div class="contact-info">
-                        <p>You can contact me at <a href="carmenk1210@gmail.com"> carrmenk [at] gmail [dot] edu</a>, 
-        or see my profile on 
-                        or see my profile on 
-                        <a href="https://www.linkedin.com/in/yuchenguo-1210/" target="_blank">LinkedIn</a>, 
-                        <a href="https://github.com/yuchencg" target="_blank">GitHub</a>
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="profile-column">
+                        <div class="profile-image">
+                            <img src="images/profile1.jpg" alt="Carmen Yuchen Guo">
+                        </div>
                     </div>
-
-                    <div class="description">
-                        <p>I work at the intersection of <strong>computational social science, data analytics, and machine learning</strong>. 
-                        with a particular interest in applying statistical and computational methods to understand social and political phenomena, and to drive data-driven decision making .</p>
+                    
+                    <div class="bio-column">
+                        <div class="greeting">
+                            <h1>Welcome! My name is Carmen Yuchen Guo.</h1>
+                            <h2>I am a graduate student in Computational Social Science at UC San Diego.</h2>
+                        </div>
                         
-                        <p>Previously worked in communication consultancy and higher education management, I bring a practical perspective 
-                        to data science, focusing on translating data into actionable insights. My broader interests include data science for insitutional research, public opinion analysis and AI for good.</p>
+                        <div class="contact-bar">
+                            <p>
+                                <a href="mailto:carmenk1210@gmail.com">carmenk1210 [at] gmail [dot] com</a>
+                                <span class="separator">·</span>
+                                <a href="https://www.linkedin.com/in/yuchenguo-1210/" target="_blank">LinkedIn</a>
+                                <span class="separator">·</span>
+                                <a href="https://github.com/yuchencg" target="_blank">GitHub</a>
+                            </p>
+                        </div>
 
+                        <div class="bio-text">
+                            <p>I work at the intersection of <strong>computational social science, data analytics, and machine learning</strong>, 
+                            with a particular interest in applying statistical and computational methods to understand social and political phenomena, and to drive data-driven decision making.</p>
+                            
+                            <p>Previously worked in communication consultancy and higher education management, I bring a practical perspective 
+                            to data science, focusing on translating data into actionable insights. My broader interests include data science for institutional research, public opinion analysis and AI for good.</p>
 
-                        <p>I am currently pursuing my masters degree in Computational Social Science at University of California, San Diego. 
+                            <p>I am currently pursuing my masters degree in Computational Social Science at University of California, San Diego. 
                             Before that, I obtained my M.S. in Marketing from The University of Hong Kong, and my B.A. in 
                             Advertising from Peking University.</p>
-        
-                        <p>Beyond research and professional work, I'm passionate about tennis, cinema, and photography.</p>
+            
+                            <p>Beyond research and professional work, I'm passionate about tennis, cinema, and photography.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                    
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section portfolio-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Photography</h2>
+                </div>
+                
+                <div class="photo-gallery">
+                    <div class="gallery-item">
+                        <img src="images/photo1.jpg" alt="Photography 1">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/photo2.jpg" alt="Photography 2">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/photo3.jpg" alt="Photography 3">
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/photo4.jpg" alt="Photography 4">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CV Section -->
+        <section id="cv" class="section cv-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Curriculum Vitae</h2>
+                    <p><a href="documents/Carmen_Guo_Resume.pdf" class="download-link" download>Download PDF →</a></p>
+                </div>
+
+                <div class="cv-content">
+                    <div class="cv-block">
+                        <h3 class="cv-title">Education</h3>
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>University of California, San Diego</strong>
+                                <span class="cv-date">Expected June 2026</span>
+                            </div>
+                            <p>M.S., Computational Social Science · GPA: 4.0/4.0</p>
+                            <p class="cv-detail">Relevant Courses: Statistical Methods, Text as Data, Deep Learning</p>
+                        </div>
+
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>The University of Hong Kong</strong>
+                                <span class="cv-date">Graduated July 2022</span>
+                            </div>
+                            <p>M.S., Marketing</p>
+                            <p class="cv-detail">Relevant Courses: Applied Marketing Research & Metrics, Big Data Consumer Analytics</p>
+                        </div>
+
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>Peking University</strong>
+                                <span class="cv-date">Graduated July 2021</span>
+                            </div>
+                            <p>B.A., Advertising</p>
+                            <p class="cv-detail">Honors: May 4th Scholarship (2018), Academic Excellence Award (2020)</p>
+                        </div>
+                    </div>
+
+                    <div class="cv-block">
+                        <h3 class="cv-title">Professional Experience</h3>
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>The University of Hong Kong</strong>
+                                <span class="cv-date">Dec 2024 – June 2025</span>
+                            </div>
+                            <p class="cv-position">Program Manager, Admissions Data Analytics</p>
+                            <ul class="cv-list">
+                                <li>Led data wrangling and analysis (~30,000 entries) to provide longitudinal and comparative application trends</li>
+                                <li>Designed interactive dashboards with Excel and Power BI for benchmarking and enrollment estimation</li>
+                                <li>Collaborated on chatbot design using Power Virtual Agent, achieving 85%+ goal completion post-launch</li>
+                            </ul>
+                        </div>
+
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>The University of Hong Kong</strong>
+                                <span class="cv-date">Sep 2023 – Dec 2024</span>
+                            </div>
+                            <p class="cv-position">Management Trainee</p>
+                            <ul class="cv-list">
+                                <li>Selected as one of 7 candidates from 700+ applicants for HKU elite management trainee program</li>
+                            </ul>
+                        </div>
+
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>Sandpiper</strong>
+                                <span class="cv-date">June 2022 – Feb 2023</span>
+                            </div>
+                            <p class="cv-position">Account Executive</p>
+                            <ul class="cv-list">
+                                <li>Conducted comprehensive statistical analysis using R on survey data from 8,087 respondents across 8 countries</li>
+                                <li>Produced data-driven insights for 50-page published report on digital lifestyle</li>
+                                <li>Developed market-specific data snapshots and visualizations for consumer expectation surveys</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="cv-block">
+                        <h3 class="cv-title">Research Projects</h3>
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>Deep Learning for Multilevel Regression and Poststratification</strong>
+                                <span class="cv-date">Sep 2025 – Present</span>
+                            </div>
+                            <p class="cv-detail">Applied generative deep learning to infer county-level climate opinions from national surveys</p>
+                        </div>
+
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>Textual Analysis of Party Influence through Information Disclosure Reports</strong>
+                                <span class="cv-date">Sep 2025 – Dec 2025</span>
+                            </div>
+                            <p class="cv-detail">Trained supervised text classification models to measure Chinese Communist Party influence in university documents</p>
+                        </div>
+
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>Emotional Motivator Network and TikTok Marketing</strong>
+                                <span class="cv-date">Oct 2021</span>
+                            </div>
+                            <p class="cv-detail">Constructed emotional motivator co-occurrence networks using Gephi, analyzed impact on viewer engagement</p>
+                        </div>
+                    </div>
+
+                    <div class="cv-block">
+                        <h3 class="cv-title">Technical Skills</h3>
+                        <div class="cv-item">
+                            <p><strong>Machine Learning & Modeling:</strong> Supervised and unsupervised learning, regularization (Lasso/Ridge/Elastic Net), tree-based models, feature engineering, model evaluation</p>
+                            <p><strong>Programming & Frameworks:</strong> Python, SQL, R; scikit-learn, Pandas, NumPy, PyTorch</p>
+                            <p><strong>Visualization:</strong> Matplotlib, Seaborn, Tableau, Power BI</p>
+                            <p><strong>Languages:</strong> Mandarin (native), English (native), Cantonese (native)</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -66,7 +219,9 @@
     </main>
 
     <footer>
-        <p>&copy; 2026 Carmen Yuchen Guo. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Carmen Yuchen Guo. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
