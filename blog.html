@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Your Name</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Your Name</a>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">About</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="page-header">
+            <h1>Blog</h1>
+        </section>
+
+        <section class="blog-grid">
+            <article class="blog-post">
+                <div class="post-meta">
+                    <time datetime="2024-01-15">January 15, 2024</time>
+                </div>
+                <h2><a href="blog-posts/post1.html">Your First Blog Post Title</a></h2>
+                <p>A brief excerpt or summary of your blog post goes here. This should give readers 
+                a quick overview of what the post is about and entice them to read more...</p>
+                <a href="blog-posts/post1.html" class="read-more">Read more →</a>
+            </article>
+
+            <article class="blog-post">
+                <div class="post-meta">
+                    <time datetime="2024-01-10">January 10, 2024</time>
+                </div>
+                <h2><a href="blog-posts/post2.html">Second Blog Post Title</a></h2>
+                <p>Another excerpt from a different blog post. Keep these summaries concise but 
+                informative enough to give readers a sense of the content...</p>
+                <a href="blog-posts/post2.html" class="read-more">Read more →</a>
+            </article>
+
+            <article class="blog-post">
+                <div class="post-meta">
+                    <time datetime="2024-01-05">January 5, 2024</time>
+                </div>
+                <h2><a href="blog-posts/post3.html">Third Blog Post Title</a></h2>
+                <p>Your third blog post excerpt. These previews help visitors quickly scan your 
+                content and decide what they want to read...</p>
+                <a href="blog-posts/post3.html" class="read-more">Read more →</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
