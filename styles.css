@@ -13,8 +13,8 @@
     
     --color-text: #1a1a1a;
     --color-text-light: #4a4a4a;
-    --color-accent: #2563eb;
-    --color-accent-hover: #1d4ed8;
+    --color-accent: #856A95;
+    --color-accent-hover: #6d5579;
     --color-bg: #ffffff;
     --color-bg-alt: #fafafa;
     --color-border: #e5e5e5;
@@ -230,7 +230,7 @@ strong {
 }
 
 .contact-box a {
-    color: #8B7355;
+    color: #856A95;
     text-decoration: none;
     transition: opacity 0.2s ease;
 }
@@ -250,7 +250,17 @@ strong {
     font-weight: 500;
     color: var(--color-text-light);
     font-family: var(--sans-font);
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.greeting h2 a {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+.greeting h2 a:hover {
+    color: var(--color-accent-hover);
+    text-decoration: underline;
 }
 
 .bio-text {
@@ -370,16 +380,16 @@ strong {
 .cv-link-box {
     display: inline-block;
     padding: 1rem 2.5rem;
-    border: 2px solid #8B7355;
+    border: 2px solid #856A95;
     border-radius: 4px;
-    color: #8B7355;
+    color: #856A95;
     font-size: 1.125rem;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .cv-link-box:hover {
-    background-color: #8B7355;
+    background-color: #856A95;
     color: white;
     text-decoration: none;
 }
@@ -470,7 +480,7 @@ footer p {
    ============================================ */
 @media (min-width: 768px) {
     .about-grid {
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 2fr 3fr;
         gap: 4rem;
     }
     
