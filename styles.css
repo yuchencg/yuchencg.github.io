@@ -323,6 +323,10 @@ strong {
 /* ============================================
    CV Section
    ============================================ */
+.cv-page {
+    padding-top: 3rem;
+}
+
 .cv-content {
     display: grid;
     gap: 3rem;

@@ -3,155 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Your Name</title>
+    <title>CV - Carmen Yuchen Guo</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="logo">Your Name</a>
+            <a href="index.html" class="logo">Carmen Yuchen Guo</a>
             <button class="menu-toggle" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
             <ul class="nav-menu">
-                <li><a href="index.html">About</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
                 <li><a href="cv.html" class="active">CV</a></li>
             </ul>
         </div>
     </nav>
 
-    <main class="container">
-        <section class="cv-header">
-            <h1>Curriculum Vitae</h1>
-            <p><a href="documents/cv.pdf" class="download-link">Download PDF version →</a></p>
-        </section>
+    <main>
+        <section class="section cv-page">
+            <div class="container">
+                <div class="section-header">
+                    <h1>Curriculum Vitae</h1>
+                    <p><a href="documents/Carmen_Guo_Resume.pdf" class="download-link" download>Download PDF →</a></p>
+                </div>
 
-        <section class="cv-content">
-            <div class="cv-section">
-                <h2>Education</h2>
-                <div class="cv-item">
-                    <div class="cv-item-header">
-                        <h3>Ph.D. in [Your Field]</h3>
-                        <span class="cv-date">2020-2024</span>
+                <div class="cv-content">
+                    <div class="cv-block">
+                        <h3 class="cv-title">Education</h3>
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>University of California, San Diego</strong>
+                                <span class="cv-date">Expected June 2026</span>
+                            </div>
+                            <p>M.S., Computational Social Science · GPA: 4.0/4.0</p>
+                            <p class="cv-detail">Relevant Courses: Statistical Methods, Text as Data, Deep Learning</p>
+                        </div>
+
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>The University of Hong Kong</strong>
+                                <span class="cv-date">Graduated July 2022</span>
+                            </div>
+                            <p>M.S., Marketing</p>
+                            <p class="cv-detail">Relevant Courses: Applied Marketing Research & Metrics, Big Data Consumer Analytics</p>
+                        </div>
+
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>Peking University</strong>
+                                <span class="cv-date">Graduated July 2021</span>
+                            </div>
+                            <p>B.A., Advertising</p>
+                            <p class="cv-detail">Honors: May 4th Scholarship (2018), Academic Excellence Award (2020)</p>
+                        </div>
                     </div>
-                    <p class="cv-institution">University Name</p>
-                    <p class="cv-details">Dissertation: "Your Dissertation Title"</p>
-                    <p class="cv-details">Advisor: Professor Name</p>
-                </div>
 
-                <div class="cv-item">
-                    <div class="cv-item-header">
-                        <h3>M.A. in [Your Field]</h3>
-                        <span class="cv-date">2018-2020</span>
+                    <div class="cv-block">
+                        <h3 class="cv-title">Professional Experience</h3>
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>The University of Hong Kong</strong>
+                                <span class="cv-date">Dec 2024 – June 2025</span>
+                            </div>
+                            <p class="cv-position">Program Manager, Admissions Data Analytics</p>
+                            <ul class="cv-list">
+                                <li>Led data wrangling and analysis (~30,000 entries) to provide longitudinal and comparative application trends</li>
+                                <li>Designed interactive dashboards with Excel and Power BI for benchmarking and enrollment estimation</li>
+                                <li>Collaborated on chatbot design using Power Virtual Agent, achieving 85%+ goal completion post-launch</li>
+                            </ul>
+                        </div>
+
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>The University of Hong Kong</strong>
+                                <span class="cv-date">Sep 2023 – Dec 2024</span>
+                            </div>
+                            <p class="cv-position">Management Trainee</p>
+                            <ul class="cv-list">
+                                <li>Selected as one of 7 candidates from 700+ applicants for HKU elite management trainee program</li>
+                            </ul>
+                        </div>
+
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>Sandpiper</strong>
+                                <span class="cv-date">June 2022 – Feb 2023</span>
+                            </div>
+                            <p class="cv-position">Account Executive</p>
+                            <ul class="cv-list">
+                                <li>Conducted comprehensive statistical analysis using R on survey data from 8,087 respondents across 8 countries</li>
+                                <li>Produced data-driven insights for 50-page published report on digital lifestyle</li>
+                                <li>Developed market-specific data snapshots and visualizations for consumer expectation surveys</li>
+                            </ul>
+                        </div>
                     </div>
-                    <p class="cv-institution">University Name</p>
-                </div>
 
-                <div class="cv-item">
-                    <div class="cv-item-header">
-                        <h3>B.A. in [Your Field]</h3>
-                        <span class="cv-date">2014-2018</span>
+                    <div class="cv-block">
+                        <h3 class="cv-title">Research Projects</h3>
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>Deep Learning for Multilevel Regression and Poststratification</strong>
+                                <span class="cv-date">Sep 2025 – Present</span>
+                            </div>
+                            <p class="cv-detail">Applied generative deep learning to infer county-level climate opinions from national surveys</p>
+                        </div>
+
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>Textual Analysis of Party Influence through Information Disclosure Reports</strong>
+                                <span class="cv-date">Sep 2025 – Dec 2025</span>
+                            </div>
+                            <p class="cv-detail">Trained supervised text classification models to measure Chinese Communist Party influence in university documents</p>
+                        </div>
+
+                        <div class="cv-item">
+                            <div class="cv-item-header">
+                                <strong>Emotional Motivator Network and TikTok Marketing</strong>
+                                <span class="cv-date">Oct 2021</span>
+                            </div>
+                            <p class="cv-detail">Constructed emotional motivator co-occurrence networks using Gephi, analyzed impact on viewer engagement</p>
+                        </div>
                     </div>
-                    <p class="cv-institution">University Name</p>
-                </div>
-            </div>
 
-            <div class="cv-section">
-                <h2>Professional Experience</h2>
-                <div class="cv-item">
-                    <div class="cv-item-header">
-                        <h3>Current Position Title</h3>
-                        <span class="cv-date">2024-Present</span>
+                    <div class="cv-block">
+                        <h3 class="cv-title">Technical Skills</h3>
+                        <div class="cv-item">
+                            <p><strong>Machine Learning & Modeling:</strong> Supervised and unsupervised learning, regularization (Lasso/Ridge/Elastic Net), tree-based models, feature engineering, model evaluation</p>
+                            <p><strong>Programming & Frameworks:</strong> Python, SQL, R; scikit-learn, Pandas, NumPy, PyTorch</p>
+                            <p><strong>Visualization:</strong> Matplotlib, Seaborn, Tableau, Power BI</p>
+                            <p><strong>Languages:</strong> Mandarin (native), English (native), Cantonese (native)</p>
+                        </div>
                     </div>
-                    <p class="cv-institution">Organization/Company Name</p>
-                    <ul class="cv-list">
-                        <li>Key responsibility or achievement</li>
-                        <li>Another important duty or accomplishment</li>
-                        <li>Additional relevant information</li>
-                    </ul>
                 </div>
-
-                <div class="cv-item">
-                    <div class="cv-item-header">
-                        <h3>Previous Position Title</h3>
-                        <span class="cv-date">2022-2024</span>
-                    </div>
-                    <p class="cv-institution">Organization/Company Name</p>
-                    <ul class="cv-list">
-                        <li>Responsibility or achievement</li>
-                        <li>Another accomplishment</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="cv-section">
-                <h2>Publications</h2>
-                <div class="cv-item">
-                    <h3>Peer-Reviewed Articles</h3>
-                    <ul class="cv-list publications">
-                        <li>"Article Title One." <em>Journal Name</em>, Vol. X, No. Y (Year): pp. ZZ-ZZ.</li>
-                        <li>"Article Title Two." <em>Journal Name</em>, Vol. X, No. Y (Year): pp. ZZ-ZZ.</li>
-                        <li>"Article Title Three." <em>Journal Name</em>, Vol. X, No. Y (Year): pp. ZZ-ZZ.</li>
-                    </ul>
-                </div>
-
-                <div class="cv-item">
-                    <h3>Book Chapters</h3>
-                    <ul class="cv-list publications">
-                        <li>"Chapter Title." In <em>Book Title</em>, edited by Editor Name. Publisher, Year.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="cv-section">
-                <h2>Awards & Honors</h2>
-                <div class="cv-item">
-                    <div class="cv-item-header">
-                        <h3>Award Name</h3>
-                        <span class="cv-date">Year</span>
-                    </div>
-                    <p class="cv-institution">Awarding Institution</p>
-                </div>
-
-                <div class="cv-item">
-                    <div class="cv-item-header">
-                        <h3>Fellowship Name</h3>
-                        <span class="cv-date">Year</span>
-                    </div>
-                    <p class="cv-institution">Awarding Institution</p>
-                </div>
-            </div>
-
-            <div class="cv-section">
-                <h2>Skills</h2>
-                <div class="cv-item">
-                    <h3>Technical Skills</h3>
-                    <p>List your technical skills, software proficiencies, programming languages, etc.</p>
-                </div>
-
-                <div class="cv-item">
-                    <h3>Languages</h3>
-                    <p>English (Native), Spanish (Fluent), French (Conversational)</p>
-                </div>
-            </div>
-
-            <div class="cv-section">
-                <h2>Service & Professional Activities</h2>
-                <ul class="cv-list">
-                    <li>Professional organization membership or role</li>
-                    <li>Conference organization or committee work</li>
-                    <li>Peer review service</li>
-                </ul>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Carmen Yuchen Guo. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
