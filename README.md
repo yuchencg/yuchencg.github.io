@@ -1,39 +1,28 @@
 # Portfolio Website for GitHub Pages
 
-A clean and simple portfolio website inspired by academic portfolio designs. Features sections for About, Blog, Portfolio/Art Gallery, and CV.
+A clean and simple portfolio website inspired by academic portfolio designs. Features sections for About, Projects, Photography, and CV.
 
-
-##  File Structure
+## File Structure
 
 ```
-username.github.io/
-├── index.html              # About/Home page
-├── blog.html               # Blog listing page
-├── portfolio.html          # Portfolio/Art gallery
+yuchencg.github.io/
+├── index.html              # Main page with About, Projects, Photography sections
 ├── cv.html                 # CV page
 ├── styles.css              # All styling
 ├── script.js               # JavaScript for interactions
-├── blog-posts/
-│   ├── post1.html         # Individual blog post template
-│   ├── post2.html         # (create more as needed)
-│   └── post3.html
-├── photography/
-│   ├── profile.jpg        
-│   ├── project1.jpg     
-│   ├── project2.jpg
+├── images/
+│   ├── profile1.jpg        # Profile photo
+│   ├── photo1.jpg          # Photography gallery images
+│   ├── photo2.jpg
 │   └── ...
 ├── documents/
-│   └── cv.pdf             # Downloadable CV
-└── README.md              # This file
+│   └── Carmen_Guo_Resume_2601.pdf  # Downloadable CV
+└── README.md               # This file
 ```
 
+## Resources
 
-##  Resources
-
-- [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- [Markdown Guide](https://www.markdownguide.org/)
-- [HTML & CSS Tutorial](https://www.w3schools.com/)
-- [Web Accessibility Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
-
-
-
+* [GitHub Pages Documentation](https://docs.github.com/en/pages)
+* [Markdown Guide](https://www.markdownguide.org/)
+* [HTML & CSS Tutorial](https://www.w3schools.com/)
+* [Web Accessibility Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
