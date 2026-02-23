@@ -1,6 +1,6 @@
 # Portfolio Website for GitHub Pages
 
-A clean simple portfolio website inspired by academic portfolio designs. Features sections for About, Blog, Portfolio/Art Gallery, and CV.
+A clean and simple portfolio website inspired by academic portfolio designs. Features sections for About, Blog, Portfolio/Art Gallery, and CV.
 
 
 ##  File Structure
@@ -17,9 +17,9 @@ username.github.io/
 │   ├── post1.html         # Individual blog post template
 │   ├── post2.html         # (create more as needed)
 │   └── post3.html
-├── images/
-│   ├── profile.jpg        # Your profile photo
-│   ├── project1.jpg       # Portfolio images
+├── photography/
+│   ├── profile.jpg        
+│   ├── project1.jpg     
 │   ├── project2.jpg
 │   └── ...
 ├── documents/
@@ -35,7 +35,5 @@ username.github.io/
 - [HTML & CSS Tutorial](https://www.w3schools.com/)
 - [Web Accessibility Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
 
-## 📄 License
 
-This template is free to use for your personal portfolio. No attribution required.
 
