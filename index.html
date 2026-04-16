@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -73,10 +73,44 @@
             <div class="container">
                 <div class="section-header">
                     <h2>Projects</h2>
+                    <p>Here are some projects I've worked on. Would love to hear any feedback and suggestions!</p>
                 </div>
-                
-                <div class="under-construction">
-                    <p>Under construction</p>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/project1.jpg" alt="Textual Analysis of Party Influence in Institutional Writing">
+                        </div>
+                        <div class="project-body">
+                            <h3>Text As Data - Variation in Party Influence in University Reports</h3>
+                            <p>Measures Chinese Communist Party ideological presence in university disclosure reports (2022–2024) using computational text analysis.</p>
+                            <p>Manually annotated training data, trained three supervised classifiers (Naive Bayes, LASSO, random forest) to detect party-aligned content, then modeled whether variation is related to geographic location and institutional hierarchy.</p>
+                            <a href="https://github.com/yuchencg/text-as-data-uni-reports" class="project-link" target="_blank">GitHub</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/project2.jpg" alt="Character-Level Language Models on Sherlock Holmes Corpus">
+                        </div>
+                        <div class="project-body">
+                            <h3>Character-Level RNN - LSTM model for Sherlock Holmes Text Generator</h3>
+                            <p>A PyTorch implementation of character-level LSTM text generation, trained on the complete Sherlock Holmes corpus.</p>
+                            <p>Compared optimizers (RMSprop, SGD with momentum, Adam) and tuned hyperparameters including batch size, sequence length, dropout, and learning rate schedule.</p>
+                            <a href="https://github.com/yuchencg/char-rnn-sherlock-holmes" class="project-link" target="_blank">GitHub</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/project3.jpg" alt="Deep Learning for Multilevel Regression and Poststratification">
+                        </div>
+                        <div class="project-body">
+                            <h3>Deep Learning for Multilevel Regression and Poststratification</h3>
+                            <p>Deep learning extension of multilevel regression and poststratification (MRP) to estimate local-level climate opinion and policy attitudes from national survey data.</p>
+                            <a href="https://github.com/DeepVerseLib/mrdeep" class="project-link" target="_blank">GitHub</a>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
